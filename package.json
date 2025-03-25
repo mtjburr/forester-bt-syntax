@@ -1,0 +1,33 @@
+{
+  "name": "forester-syntax",
+  "displayName": "forester-syntax",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "forester",
+        "aliases": [
+          "forester"
+        ],
+        "extensions": [
+          ".tree"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "scopeName": "source.forester",
+        "language": "forester",
+        "path": "./syntaxes/forester.tmLanguage.json"
+      }
+    ]
+  }
+}

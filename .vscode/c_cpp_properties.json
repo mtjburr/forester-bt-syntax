@@ -1,0 +1,45 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/workspaces/blastdog/install/test_msgs/include/**",
+        "/workspaces/blastdog/install/action_msgs/include/**",
+        "/workspaces/blastdog/install/unique_identifier_msgs/include/**",
+        "/workspaces/blastdog/install/operator_app_interface/include/**",
+        "/workspaces/blastdog/install/sensor_msgs/include/**",
+        "/workspaces/blastdog/install/nav_msgs/include/**",
+        "/workspaces/blastdog/install/diagnostic_msgs/include/**",
+        "/workspaces/blastdog/install/geometry_msgs/include/**",
+        "/workspaces/blastdog/install/std_msgs/include/**",
+        "/workspaces/blastdog/install/rosgraph_msgs/include/**",
+        "/workspaces/blastdog/install/rcl_interfaces/include/**",
+        "/workspaces/blastdog/install/pds_interface/include/**",
+        "/workspaces/blastdog/install/mine_model_interface/include/**",
+        "/workspaces/blastdog/install/diagnostic_codes/include/**",
+        "/workspaces/blastdog/install/dbw_interface/include/**",
+        "/workspaces/blastdog/install/comms_box_interface/include/**",
+        "/workspaces/blastdog/install/builtin_interfaces/include/**",
+        "/workspaces/blastdog/install/base_interface/include/**",
+        "/opt/ros/humble/include/**",
+        "/workspaces/blastdog/src/diagnostics/diagnostic_analyser_plugins/example_plugins_humble/include/**",
+        "/workspaces/blastdog/src/localisation_subsystem/gnss_transformer/include/**",
+        "/workspaces/blastdog/src/localisation_subsystem/nmea_decoder/include/**",
+        "/workspaces/blastdog/src/localisation_subsystem/utilities/breadcrumb_dropper/include/**",
+        "/workspaces/blastdog/src/mine_model_subsystem/hole_property/include/**",
+        "/workspaces/blastdog/src/ros2/common_interfaces/sensor_msgs/include/**",
+        "/workspaces/blastdog/src/ros2/rcl_interfaces/test_msgs/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
