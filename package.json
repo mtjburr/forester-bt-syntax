@@ -7,6 +7,7 @@
   "engines": {
     "vscode": "^1.98.0"
   },
+  "repository": {"url": "https://github.com/mtjburr/forester-bt-syntax"},
   "categories": [
     "Programming Languages"
   ],
