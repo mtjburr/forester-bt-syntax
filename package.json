@@ -2,7 +2,7 @@
   "name": "forester-syntax",
   "displayName": "forester-syntax",
   "description": "",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "mtjb",
   "engines": {
     "vscode": "^1.98.0"
